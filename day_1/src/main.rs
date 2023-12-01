@@ -9,8 +9,6 @@ fn main(){
     println!("{}", sum);
 }
 
-
-#[allow(dead_code)]
 fn calc_sum_for_numbers(line: &str, sum: &mut i32) {
     // count numbers of line
     let number_string = line.chars().filter(|c| c.is_numeric()).collect::<String>();
