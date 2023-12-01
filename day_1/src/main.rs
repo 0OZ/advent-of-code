@@ -4,7 +4,7 @@ fn main(){
     let mut sum = 0;
 
     for line in input::get_input().lines() {
-        calc_sum_for_number_words(line, &mut sum);
+        calc_sum_for_numbers(line, &mut sum);
     }
     println!("{}", sum);
 }
