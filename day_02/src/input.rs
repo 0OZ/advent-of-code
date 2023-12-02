@@ -1,9 +1,14 @@
-// pub fn get_test_input() -> String {
-
-// }
+pub fn get_test_input() -> String {
+    return r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
+Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
+Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red
+Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red
+Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green;"#
+        .to_owned();
+}
 
 pub fn get_input() -> String {
-   return r#"Game 1: 12 blue; 2 green, 13 blue, 19 red; 13 red, 3 green, 14 blue
+    return r#"Game 1: 12 blue; 2 green, 13 blue, 19 red; 13 red, 3 green, 14 blue
    Game 2: 12 blue, 1 red, 1 green; 1 red, 12 blue, 3 green; 5 green, 1 red, 9 blue; 1 red, 7 blue, 4 green
    Game 3: 1 red; 12 blue, 15 red; 1 green, 10 red, 2 blue; 1 green, 3 red, 9 blue
    Game 4: 6 blue, 5 green; 2 blue, 6 green, 6 red; 11 blue, 5 red; 6 green, 11 red, 7 blue; 4 green, 10 red; 1 green, 7 red, 13 blue
@@ -102,5 +107,5 @@ pub fn get_input() -> String {
    Game 97: 5 green, 13 red, 7 blue; 2 blue, 12 red, 6 green; 10 blue, 11 red, 3 green; 4 green, 11 blue, 15 red; 8 green, 16 blue, 1 red; 15 blue, 4 red, 5 green
    Game 98: 3 blue, 1 red; 4 blue; 2 green, 1 blue; 2 green, 1 red, 5 blue
    Game 99: 4 green, 3 blue, 9 red; 6 blue, 5 red, 3 green; 2 green, 4 blue, 7 red; 8 red, 4 blue; 2 green, 15 red; 4 red, 5 blue, 3 green
-   Game 100: 8 red, 4 blue, 4 green; 10 blue, 3 red, 4 green; 10 green, 4 red; 18 red, 9 blue, 2 green; 12 red, 4 green, 2 blue"#.to_owned(); 
+   Game 100: 8 red, 4 blue, 4 green; 10 blue, 3 red, 4 green; 10 green, 4 red; 18 red, 9 blue, 2 green; 12 red, 4 green, 2 blue"#.to_owned();
 }
