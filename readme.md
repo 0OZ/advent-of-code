@@ -31,8 +31,8 @@ cargo run [day_x]
 
 Each day's puzzle is in a separate directory:
 
-- `day_1`
-- `day_2`
+- `day_01`
+- `day_02`
 - ...
 - `day25`
 
