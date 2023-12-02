@@ -1,3 +1,13 @@
+pub fn get_test_input() -> String {
+    return r#"two1nine
+    eightwothree
+    abcone2threexyz
+    xtwone3four
+    4nineeightseven2
+    zoneight234
+    7pqrstsixteen"#.to_owned();
+}
+
 pub fn get_input() -> String {
     return r#"six1mpffbnbnnlxthree
     4eight3one92
