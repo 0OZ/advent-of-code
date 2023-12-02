@@ -24,7 +24,7 @@ cd advent-of-code
 To run a solution for a specific day, navigate to the day's directory and use `cargo run`:
 
 ```bash
-cargo run [day_x]
+cargo run --package day_n --bin day_n
 ```
 
 ## Structure
